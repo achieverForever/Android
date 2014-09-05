@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+    <Button
+        android:id="@+id/btn_pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PieChartActivity" />
+    <Button
+        android:id="@+id/btn_multi_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MultiTouchActivity" />
+    <Button
+        android:id="@+id/btn_pie_with_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PieWithGestureActivity"/>
+
+</LinearLayout>
