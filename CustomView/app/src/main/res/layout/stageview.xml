@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.weichenggwc.myapplication.wigets.StageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffbdbdbd"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        custom:numStages="5"
+        custom:lineWidth="80dp"
+        custom:currentPosition="2"
+        custom:passedColor="#FF00ABF3"
+        custom:unpassedColor="#FFCCEEFD"
+        custom:textSize="10sp"
+        custom:textPadding="10dp"/>
+</LinearLayout>

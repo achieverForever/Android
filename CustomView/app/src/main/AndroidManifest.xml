@@ -19,7 +19,7 @@
 
         <activity android:name=".PieChartActivity" />
         <activity android:name=".MultiTouchActivity" />
-        <activity android:name=".PieWithGestureActivity" />
+        <activity android:name=".StageViewActivity" />
     </application>
 
 </manifest>

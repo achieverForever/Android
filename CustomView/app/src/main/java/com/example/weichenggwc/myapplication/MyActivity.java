@@ -41,7 +41,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
 		} else if (v.getId() == R.id.btn_multi_touch) {
 			intent = new Intent(this, MultiTouchActivity.class);
 		} else {
-			intent = new Intent(this, PieWithGestureActivity.class);
+			intent = new Intent(this, StageViewActivity.class);
 		}
 		startActivity(intent);
 	}

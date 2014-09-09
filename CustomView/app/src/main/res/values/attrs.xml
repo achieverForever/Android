@@ -37,8 +37,11 @@
     
     <declare-styleable name="StageView">
         <attr name="numStages" format="integer"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="unpassedColor" format="color"/>
         <attr name="passedColor" format="color"/>
-        <attr name="yetPassedColor" format="color"/>
-        <attr name="currPoint" format="integer"/>
+        <attr name="currentPosition" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textPadding" format="dimension"/>
     </declare-styleable>
 </resources>
